@@ -4,7 +4,7 @@ The DDGTool of the ClickScanner. It is a backward program slicer. It can detect 
 # Setup
 Due to time limitation, we just give the jar package here, its command is as follows:
 ```
-java -Xms128m -Xmx14336m -jar ~\ClickScanner-timer.jar ~\ClickScanner.jar ~\TestedAppsPath ~\resultsPath\ timieout(ms) ~\DoneAppsPath ~\androidjarPath
+java -Xms128m -Xmx14336m -jar ~\ClickScanner-timer.jar ~\ClickScanner.jar ~\TestedAppsPath ~\resultsPath\ timeout(ms) ~\DoneAppsPath ~\androidjarPath
 ```
 # Parameter Description
 TestedAppsPath is the path that contains the apps which are going to be tested. resultsPath is the path that contains the results. Note that resultsPath needs to contain two subfolder: ~\resultsPath\motion and ~\resultsPath\public. DoneAppsPath is the path that contains the apps which have been tested. androidjarPath is the path that contains the android.jar (you could download it by yourself) file.
