@@ -5,7 +5,7 @@ The DDGTool of the ClickScanner. It is a backward program slicer. It can detect 
 I have updated the backward slicing tools of the ClickScanner. ClikcScanner2.0.jar can help you to backward slice the parameters in a certain method. But I didn't have time to update the ClickScanner-timer. So you can simply run the ClickScanner2.0.jar with the command below:
 
 ```
-java -XmsXXXm -XmxXXXm -jar ~\ClikcScanner2.0.jar ~\ClickScanner.jar ~\TestedAppsPath ~\resultsPath\ timeout(ms) ~\androidjarPath the_signature_of_the_menthod-A_you_want_to_analyze where_is_the_the_menthod-A_invoked which_parameter_do_you_want_to_analyze result_Mode
+java -XmsXXXm -XmxXXXm -jar ~\ClikcScanner2.0.jar ~\TestedAppsPath ~\resultsPath\ timeout(ms) ~\androidjarPath the_signature_of_the_menthod-A_you_want_to_analyze where_is_the_the_menthod-A_invoked which_parameter_do_you_want_to_analyze result_Mode
 ```
 # Parameter Description of ClickScanner2.0.jar
 
