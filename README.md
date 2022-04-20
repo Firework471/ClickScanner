@@ -15,9 +15,9 @@ java -XmsXXXm -XmxXXXm -jar ~\ClikcScanner2.0.jar ~\TestedAppsPath ~\resultsPath
 
 **timeout**: timeout (ms).
 
-**the_signature_of_the_menthod-A_you_want_to_analyze**: format: "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>" means that you want to analyze the parameters of the method java.lang.StringBuilder append(int).
+**the_signature_of_the_menthod-A_you_want_to_analyze**: format: "<java.lang.StringBuilder: java.lang.StringBuilder append(int)>" (maybe you should replace the space with \\s like "<java.lang.StringBuilder:\\sjava.lang.StringBuilder\\sappend(int)>") means that you want to analyze the parameters of the method java.lang.StringBuilder append(int).
 
-**where_is_the_the_menthod-A_invoked**: because menthod-A can be invoked in many methods, so we must make sure that where is the the menthod-A invoked. For example: "<com.xx.xx: void d()>" means that method-A is invoked in the method void d().
+**where_is_the_the_menthod-A_invoked**: because menthod-A can be invoked in many methods, so we must make sure that where is the the menthod-A invoked. For example: "<com.xx.xx: void d()>" (maybe you should replace the space with \\s like "<com.xx.xx:\\svoid\\sd()>") means that method-A is invoked in the method void d().
 
 **which_parameter_do_you_want_to_analyze**: format: "0,2,3" means that you want to analyze the first, the third and the forth parameters.
 
