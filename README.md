@@ -40,7 +40,7 @@ In order to better meet the needs of researchers, we distributed the test result
 The parameters of the current jar package are too complicated and we need more time to sort out more user-friendly APIs. And we will open source the code in the camera ready version.
 
 # Citation
-If your found FICS useful for your research, please cite the following paper:
+If your found ClickScanner useful for your research, please cite the following paper:
 ```
 @inproceedings{10.1145/3460120.3484546,
 author = {Zhu, Tong and Meng, Yan and Hu, Haotian and Zhang, Xiaokuan and Xue, Minhui and Zhu, Haojin},
