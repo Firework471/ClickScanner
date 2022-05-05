@@ -1,7 +1,7 @@
 # ClickScanner 
 The DDGTool of the ClickScanner. It is a backward program slicer. It can detect the assignment process of variables or parameters of APIs. Our framework can be easily extended by researchers for targeted and efficient security vetting of modern Android apps.
 
-# Updated on 4/19/2022
+# Updated for ClickScanner2.0.jar
 I have updated the backward slicing tools of the ClickScanner. ClikcScanner2.0.jar can help you to backward slice the parameters in a certain method. But I didn't have time to update the ClickScanner-timer. So you can simply run the ClickScanner2.0.jar with the command below:
 
 ```
