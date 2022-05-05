@@ -38,3 +38,24 @@ In order to better meet the needs of researchers, we distributed the test result
 
 # Improved Version in Camera Ready
 The parameters of the current jar package are too complicated and we need more time to sort out more user-friendly APIs. And we will open source the code in the camera ready version.
+
+# Citation
+If your found FICS useful for your research, please cite the following paper:
+```
+@inproceedings{10.1145/3460120.3484546,
+author = {Zhu, Tong and Meng, Yan and Hu, Haotian and Zhang, Xiaokuan and Xue, Minhui and Zhu, Haojin},
+title = {Dissecting Click Fraud Autonomy in the Wild},
+year = {2021},
+isbn = {9781450384544},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3460120.3484546},
+doi = {10.1145/3460120.3484546},
+booktitle = {Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security},
+pages = {271–286},
+numpages = {16},
+keywords = {click fraud, variational autoencoders, humanoid attack, static analysis},
+location = {Virtual Event, Republic of Korea},
+series = {CCS '21}
+}
+```
